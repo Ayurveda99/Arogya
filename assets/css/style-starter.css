@@ -23,7 +23,7 @@ Author URL: http://w3layouts.com
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #ff5200;
+  --primary: #28a745;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -1826,21 +1826,21 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ff5200;
-  border-color: #ff5200; }
+  background-color: #28a745;
+  border-color: #28a745; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #d94600;
+    background-color: #199e41;
     border-color: #cc4200; }
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
-    background-color: #d94600;
+    background-color: #199e41;
     border-color: #cc4200;
     box-shadow: 0 0 0 0.2rem rgba(255, 108, 38, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #ff5200;
-    border-color: #ff5200; }
+    background-color: #28a745;
+    border-color: #28a745; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -9555,7 +9555,7 @@ a.text-dark:hover, a.text-dark:focus {
   clip: auto; }
 
 :root {
-  --primary-color: #ff5200;
+  --primary-color: #28a745;
   --font-color: #696687;
   --bg-color: #fff;
   --heading-color: #3B3663;
@@ -9569,7 +9569,7 @@ a.text-dark:hover, a.text-dark:focus {
   --btn-bg: #e2e8f0; }
 
 [data-theme="dark"] {
-  --primary-color: #ff5200;
+  --primary-color: #28a745;
   --font-color: #b7b7b7;
   --bg-color: #1c1d21;
   --heading-color: #eee;
@@ -10409,11 +10409,12 @@ a.view:hover {
   z-index: 0;
   display: grid;
   align-items: center;
-  min-height: calc(100vh - 50px); }
+  min-height: calc(100vh - 120px); }
 
 .w3l-main-slider .banner-top1 {
   background: url(../images/banner2.jpg) no-repeat center;
-  background-size: cover; }
+  background-size: cover;
+  min-height: calc(100vh - 120px);}
 
 .w3l-main-slider .banner-top2 {
   background: url(../images/banner3.jpg) no-repeat center;
@@ -10432,7 +10433,7 @@ a.view:hover {
   right: 0;
   z-index: -1;
   background-color: #0a0a0a;
-  opacity: .5; }
+  opacity: .1; }
 
 @media (max-width: 1200px) {
   .w3l-main-slider .banner-info-bg h5 {
