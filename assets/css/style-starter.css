@@ -10409,7 +10409,7 @@ a.view:hover {
   z-index: 0;
   display: grid;
   align-items: center;
-  min-height: 70vh; }
+  min-height: calc(100vh - 120px); }
 
 .w3l-main-slider .banner-top1 {
   background: url(../images/banner2.jpg) no-repeat center;
