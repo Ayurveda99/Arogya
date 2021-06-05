@@ -9663,6 +9663,10 @@ p.white {
 .noscroll {
   min-height: 100vh;
   overflow: hidden; }
+  
+ .honeypot-field {
+  display: none;
+}
 
 .radius-image {
   border-radius: var(--border-radius); }
