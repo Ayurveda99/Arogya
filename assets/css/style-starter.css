@@ -10323,6 +10323,10 @@ nav ul li a:hover {
 
 .w3l-main-slider li {
   list-style-type: none; }
+  
+.w3l-main-slider :hover{
+  animation: 0; 
+}
 
 .w3l-main-slider .banner-info-bg ul li {
   display: inline-block;
@@ -10401,7 +10405,8 @@ a.view:hover {
   -webkit-transition: 0.3s ease-in;
   -o-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in;
-  -ms-transition: 0.3s ease-in; }
+  -ms-transition: 0.3s ease-in; }  
+
 
 .w3l-main-slider .companies20-content {
   position: relative; }
@@ -10418,7 +10423,6 @@ a.view:hover {
 .w3l-main-slider .banner-top1 {
   background: url(../images/banner2.jpg) no-repeat center;
   background-size: contain;
-  
   }
 
 .w3l-main-slider .banner-top2 {
@@ -11095,6 +11099,7 @@ p.count-text {
   position: relative;
   overflow: hidden;
   -webkit-transform: translate3d(0, 0, 0); }
+ 
 
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {
